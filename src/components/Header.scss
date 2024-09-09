@@ -1,0 +1,193 @@
+$color-primario: #010c22;
+$color-secundario: #002266;
+$color-acentuacion: #ffa500;
+$color-blanco: #fff;
+
+/* -------------------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------------------- */
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    & {
+      /* .main-header */
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+#menu {
+  display: none;
+
+  &:checked + .nav-bar {
+    display: block;
+  }
+
+  &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+    background-color: $color-primario;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* NAVBAR */
+/* -------------------------------------------------------- */
+
+.nav-bar {
+  background-color: $color-primario;
+
+  &__nav-list {
+    /* .nav-bar__nav-list */
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      & {
+        flex-direction: column;
+      }
+    }
+  }
+
+  &__nav-item {
+    text-align: center;
+    background-color: $color-primario;
+  }
+
+  &__nav-link {
+    display: block;
+    background-color: $color-primario;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: $color-acentuacion;
+  }
+
+  @media (max-width: 768px) {
+    & {
+      /* .nav-bar */
+      display: none;
+    }
+  }
+}
+
+/* -------------------------------------------------------- */
+/* SEARCH BAR */
+/* -------------------------------------------------------- */
+
+.search-bar {
+  background-color: #444444;
+  display: flex;
+  justify-content: space-around;
+
+  &__logo-container {
+    width: 18.75rem;
+    height: 3.75rem;
+    background-color: #444444;
+  }
+
+  &__logo-img {
+    margin-left: 2rem;
+    width: 13em;
+  }
+
+  &__form-container {
+    padding: 1rem;
+    background-color: #444444;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+  }
+
+  &__form-search {
+    margin-right: 2rem;
+    background-color: white;
+    width: 50%;
+    color: black;
+  }
+
+  &__form-submit {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffa500;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  &__carrito-container {
+    flex: 0 0 3rem;
+    background-color: #444444;
+  }
+
+  &__carrito-img {
+    padding-top: 0.9rem;
+    width: 80%;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* MENÚ TOOGLE */
+/* -------------------------------------------------------- */
+
+.menu-toogle {
+  display: none;
+  background-color: red;
+  flex: 0 0 3rem;
+  position: relative;
+  cursor: pointer;
+
+  &__label {
+    display: block;
+    background-color: black;
+    height: 100%;
+  }
+
+  &__top-bread,
+  &__meat,
+  &__bottom-bread {
+    display: block;
+    background-color: #333;
+    height: 0.2rem;
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+  }
+
+  &__top-bread {
+    top: 0.8rem;
+  }
+
+  &__meat {
+    top: 50%;
+    margin-top: -0.1rem;
+  }
+  &__bottom-bread {
+    bottom: 0.8rem;
+  }
+
+  @media (max-width: 768px) {
+    & {
+      /* .menu-toogle */
+      display: block;
+    }
+  }
+}
+
+/* -------------------------------------------------------- */
+/* SECTION CARDS */
+/* -------------------------------------------------------- */
+
+.section-cards {
+  &__header {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  &__header-p {
+    margin-bottom: 30px;
+  }
+}

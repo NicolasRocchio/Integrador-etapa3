@@ -1,0 +1,16 @@
+.section-cards {
+  background-image: linear-gradient(to bottom right, #29d5d6 0%, #e21cee 100%);
+  padding: 1rem;
+}
+
+h1 {
+  color: #444444;
+  padding-bottom: 1rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}

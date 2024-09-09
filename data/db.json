@@ -1,0 +1,133 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Baldur's Gate 3",
+      "foto": "/img/Baldurs-Gate-3.webp",
+      "descripcion": "Reúne a tu grupo y enfrenta compañerismo, traición y poder. Resiste o abraza la corrupción como mal supremo.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 2,
+      "nombre": "Biomutant",
+      "foto": "/img/Biomutant.webp",
+      "descripcion": "Juego de rol de Kung-Fu post-apocalíptico. Combina combate cuerpo a cuerpo, disparos y habilidades mutantes en mundo abierto.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 3,
+      "nombre": "Crysis Remastered",
+      "foto": "/img/Crysis-Remastered.webp",
+      "descripcion": "Una misión de rescate se convierte en guerra contra alienígenas. Usa un nanotraje para vencer enemigos y destruir vehículos.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 4,
+      "nombre": "Dragon Ball Z: Kakarot",
+      "foto": "/img/DRAGON-BALL-Z-KAKAROT.webp",
+      "descripcion": "Revive la historia de Goku y Guerreros Z con batallas épicas, luchando, pescando y entrenando en el mundo de Dragon Ball.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 5,
+      "nombre": "Dying Light 2: Stay Human",
+      "foto": "/img/Dying-Light-2-Stay-Human.webp",
+      "descripcion": "La civilización retrocede. Usa tu agilidad y habilidades de combate para sobrevivir y remodelar el mundo con tus decisiones.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 6,
+      "nombre": "Forza Horizon 5",
+      "foto": "/img/Forza-Horizon-5.webp",
+      "descripcion": "Explora los vibrantes paisajes de México en este mundo abierto de conducción con cientos de los mejores autos disponibles.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 7,
+      "nombre": "Ghost of Tsushima - Director's Cut",
+      "foto": "/img/Ghost-of-Tsushima-Directors-Cut.webp",
+      "descripcion": "Protege Japón del imperio mongol en esta épica historia ambientada en el siglo XIII, liderada por un general astuto.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 8,
+      "nombre": "God of War",
+      "foto": "/img/God-of-War.webp",
+      "descripcion": "Kratos debe sobrevivir en el mundo nórdico junto a su hijo, enfrentando dioses, monstruos y los peligros de esta tierra.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 9,
+      "nombre": "Horizon Forbidden West Complete Edition",
+      "foto": "/img/Horizon-Forbidden-West-Complete-Edition.webp",
+      "descripcion": "Acompaña a Aloy en nuevas aventuras, con historias, personajes y experiencias adicionales en la expansión Burning Shores.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 10,
+      "nombre": "Guardians of the Galaxy",
+      "foto": "/img/Marvels-Guardians-of-the-Galaxy.webp",
+      "descripcion": "Viaja por el cosmos como Star-Lord, liderando a los impredecibles Guardianes en una aventura llena de caos y diversión.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 11,
+      "nombre": "Resident Evil 3",
+      "foto": "/img/RESIDENT-EVIL-3.webp",
+      "descripcion": "Jill Valentine enfrenta a Umbrella y su arma secreta, Némesis, mientras lucha por sobrevivir en Raccoon City.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 12,
+      "nombre": "Saints Row Platinum Edition",
+      "foto": "/img/Saints-Row-Platinum-Edition.webp",
+      "descripcion": "Únete a un grupo de jóvenes criminales y asciende en el inframundo de Santo Ileso, luchando por convertirte en Self Made.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 13,
+      "nombre": "Hellblade 2",
+      "foto": "/img/Senuas-Saga-Hellblade-II.webp",
+      "descripcion": "Acompaña a Senua en su lucha por la supervivencia en un brutal viaje por los mitos y tormentos de Islandia vikinga.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 14,
+      "nombre": "Sifu",
+      "foto": "/img/SIFU.webp",
+      "descripcion": "Sigue la historia de un joven estudiante de Kung-Fu que busca venganza en intensos combates cuerpo a cuerpo.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 15,
+      "nombre": "The Ascent",
+      "foto": "/img/The-Ascent.webp",
+      "descripcion": "Survive in a cyberpunk world where The Ascent Group has collapsed, throwing you into a chaotic fight for survival.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 16,
+      "nombre": "Tony Hawk Pro Skater 1-2",
+      "foto": "/img/Tony-Hawks-Pro-Skater-1-2.webp",
+      "descripcion": "Patina como Tony Hawk y otros profesionales, realizando trucos locos mientras escuchas música de la banda sonora clásica.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 17,
+      "nombre": "Uncharted Legacy of Thieves Collection",
+      "foto": "/img/UNCHARTED-Legacy-of-Thieves-Collection.webp",
+      "descripcion": "Juega como Nathan Drake y Chloe Frazer en aventuras independientes, enfrentando sus pasados y creando nuevos legados.",
+      "precio": "60 usd"
+    },
+    {
+      "id": 18,
+      "nombre": "Watch Dogs Legion",
+      "foto": "/img/Watch-Dogs-Legion.webp",
+      "descripcion": "Forma una resistencia y lucha para liberar un Londres cercano al colapso, hackeando, infiltrándote y combatiendo en el futuro.",
+      "precio": "60 usd"
+    }
+  ],
+  "carrito": [
+    []
+  ]
+}

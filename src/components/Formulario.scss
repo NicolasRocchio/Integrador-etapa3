@@ -1,0 +1,29 @@
+.alta-form {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  border-collapse: collapse;
+  width: 95%;
+  margin: 1rem auto;
+
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  form {
+    display: inline-block;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+}

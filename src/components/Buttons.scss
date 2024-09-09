@@ -1,0 +1,24 @@
+.button-orange {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffa500;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button-grey {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+@media (max-width: 596px) {
+  .button-grey {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+}
